@@ -1,10 +1,5 @@
-import { connect_to_I2C, init_RM00x_I2C } from "./rm00x-module.js";
+import { RM00x } from "./rm00x-web.js";
 
-window.connect_RM00x = function() {
-	return connect_to_I2C()
-	.then((dev) => {
-		return init_RM00x_I2C(dev)
-		.then(() => console.dir(dev))
-		.then(() => dev);
-	});
-}
+const rm = new RM00x(RM00x.fetchdevice(), function () {
+	this.create_servo("base", 0);
+});
