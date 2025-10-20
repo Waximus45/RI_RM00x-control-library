@@ -1,8 +1,8 @@
-#RM00x
+# RM00x
 
 Это библиотека, созданная для управления манипуляторами модели Robot Manipulator версий 00x от RoboIntellect.
 
-##RM00x js-browser
+## RM00x js-browser
 
 Версия для программирования на языке JavaScript для браузера.
 
