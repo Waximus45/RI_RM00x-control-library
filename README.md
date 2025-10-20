@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 <h1>RM00x js-browser</h1>
 <p>Это библиотека, созданная для манипуляторов модели Robot Manipulator 00x.</p>
-=======
-Это библиотека, созданная для манипуляторов модели Robot Manipulator 00x.
->>>>>>> 7d0b76e1a057411ddc9d3ed3336c727e4c1344d9
 Использование js-browser:
     new RM00x(device, post-init) -
         device - манипулятор
